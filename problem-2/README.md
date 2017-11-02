@@ -1,4 +1,4 @@
-# Problem 2: Fixed width text
+# Problem 2: Text Justification
 
 Input:
 
