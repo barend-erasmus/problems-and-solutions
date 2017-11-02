@@ -1,0 +1,21 @@
+# Problem 1: Modifying font of HTML text
+
+```html
+<span style="font-family: 'Open Sans', Arial, Helvetica; text-align: justify;">Lorem ipsum dolor sit amet,
+    <b>consectetur </b>adipiscing elit.
+    <u>Vestibulum </u>malesuada metus quis ullamcorper
+    <span style="color: rgb(206, 0, 0);">fermentum.</span>
+    Vivamus pulvinar venenatis dui, id faucibus dui sollicitudin sed. Morbi ultricies massa magna. 
+</span>
+<span style="text-align: justify; color: rgb(255, 0, 0);">
+    <font face="Impact">Nunc at nisl vitae sem feugiat consequat quis eu diam.</font>
+</span>
+<span style="font-family: Tahoma, Arial; text-align: justify;"> Mauris porta maximus tristique. Donec maximus ullamcorper fermentum. Mauris bibendum hendrerit sapien. Nulla ornare lacus
+    ac dui mattis pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh tellus, dignissim et diam a,
+    vestibulum pellentesque mi. Pellentesque gravida tempor neque, ut venenatis elit. Donec eget congue ligula, nec tristique
+    ipsum. Interdum et malesuada fames ac ante ipsum primis in
+    <span style="color: rgb(0, 0, 255);">faucibus</span>.
+</span>
+```
+
+Create a method/function that will transform the above HTML to a uniform font of 'Arial'.
